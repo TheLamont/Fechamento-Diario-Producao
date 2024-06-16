@@ -1,7 +1,9 @@
-relatorio = """Bom dia,
+introducao = """Bom dia,
 FECHAMENTO DIÁRIO DE PRODUÇÃO UNIDADE: MARINGÁ
  DATA 13/06/2024
+ """
 
+costura = """
 COSTURA:
 
  1.QT OPERADORAS:
@@ -19,7 +21,9 @@ COSTURA:
  7.PRODUTIVIDADE:
 
  8.PRODUTIVIDADE ACUMULADA:
+"""
 
+grupos = """
 RELATÓRIO DOS GRUPOS:
 
  GRUPO 01: Local 10 - 3 Pessoas - Tecido Plano - P: % - E: % - PEÇAS
@@ -44,10 +48,16 @@ RELATÓRIO DOS GRUPOS:
   - OBS:
 
  ÍNDICE DE RETRABALHO: %
+"""
 
+acabamento = """
 ACABAMENTO:
  TRAVETE: Local 25 - P: % - E: % - PEÇAS
  REVISÃO: Local 27 - P: % - E: % - PEÇAS
  EMBALAGEM: Local 28 - P % - E: % - PEÇAS
 """
-print(relatorio)
+
+print(introducao)
+print(costura)
+print(grupos)
+print(acabamento)
